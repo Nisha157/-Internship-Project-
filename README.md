@@ -36,14 +36,13 @@ Database
 📂 Project Structure
 
 Ration-Shop-Distribution-Web-APP/
-├── frontend/
-├── backend/
-├── database/
-├── documentation/
-├── .gitignore
-├── LICENSE
-└── README.md
 
+- "frontend/" — Frontend application
+- "backend/" — Backend application
+- "database/" — Database files
+- "documentation/" — Project documentation
+- "README.md" — Project information
+- 
 ⚙️ Installation and Setup
 
 Frontend Setup
