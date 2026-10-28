@@ -1,0 +1,406 @@
+
+.home-page {
+  min-height: 100vh;
+  background: #fff;
+  color: #19392c;
+  font-family: Inter, "Segoe UI", Arial, sans-serif;
+}
+
+.home-navbar {
+  min-height: 86px;
+  padding: 16px 7%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+  border-bottom: 1px solid #edf1ed;
+}
+
+.home-brand {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  color: #204d37;
+  text-decoration: none;
+}
+
+.home-brand-icon {
+  display: grid;
+  width: 46px;
+  height: 46px;
+  place-items: center;
+  border-radius: 13px;
+  background: #24583e;
+  color: white;
+  font-size: 30px;
+}
+
+.home-brand strong,
+.home-brand small {
+  display: block;
+}
+
+.home-brand strong {
+  font-size: 23px;
+}
+
+.home-brand small {
+  margin-top: 4px;
+  color: #748378;
+  font-size: 9px;
+  letter-spacing: 1.2px;
+}
+
+.home-nav-links {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.home-nav-links > a {
+  color: #526258;
+  font-size: 13px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.home-nav-links > a:hover {
+  color: #63894b;
+}
+
+.home-nav-links .nav-login {
+  padding: 13px 20px;
+  border-radius: 8px;
+  background: #24583e;
+  color: #fff;
+}
+
+.nav-login span {
+  margin-left: 8px;
+}
+
+.home-hero {
+  min-height: 590px;
+  padding: 75px 9%;
+  display: grid;
+  grid-template-columns: 1.1fr 0.9fr;
+  align-items: center;
+  gap: 45px;
+  background:
+    radial-gradient(circle at 85% 45%, #e8f1df 0, transparent 33%),
+    linear-gradient(120deg, #f9fbf7, #fff);
+}
+
+.home-eyebrow,
+.section-label {
+  color: #6b8c50;
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: 2px;
+}
+
+.hero-content h1 {
+  margin: 23px 0;
+  color: #1a4230;
+  font-size: clamp(42px, 5vw, 66px);
+  line-height: 1.08;
+  letter-spacing: -2px;
+}
+
+.hero-content h1 span {
+  color: #729451;
+}
+
+.hero-content > p {
+  max-width: 510px;
+  color: #718078;
+  font-size: 15px;
+  line-height: 1.9;
+}
+
+.hero-actions {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 22px;
+  margin-top: 30px;
+}
+
+.hero-primary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  padding: 15px 22px;
+  border: 0;
+  border-radius: 8px;
+  background: #24583e;
+  color: #fff;
+  font-size: 13px;
+  font-weight: 700;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.hero-primary:hover {
+  background: #173e2b;
+}
+
+.hero-secondary {
+  color: #365b43;
+  font-size: 13px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.hero-trust {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 18px;
+  margin-top: 32px;
+  color: #58745d;
+  font-size: 11px;
+}
+
+.hero-visual {
+  position: relative;
+  display: grid;
+  min-height: 370px;
+  place-items: center;
+}
+
+.grain-circle {
+  display: flex;
+  width: min(320px, 75vw);
+  aspect-ratio: 1;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #d7e5cd;
+  border-radius: 50%;
+  background: linear-gradient(145deg, #eff6e9, #dcebd1);
+  box-shadow: 0 25px 65px #234c3014;
+}
+
+.grain-icon {
+  margin-bottom: 12px;
+  font-size: 64px;
+}
+
+.grain-circle > span {
+  color: #6c8a4f;
+  font-size: 12px;
+  letter-spacing: 5px;
+}
+
+.grain-circle > strong {
+  margin-top: 3px;
+  color: #204d37;
+  font-size: 38px;
+  letter-spacing: 5px;
+}
+
+.grain-circle > small {
+  margin-top: 10px;
+  color: #63775d;
+  font-size: 9px;
+  letter-spacing: 2px;
+}
+
+.floating-card {
+  position: absolute;
+  right: -5px;
+  bottom: 24px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 17px;
+  border: 1px solid #edf1e9;
+  border-radius: 12px;
+  background: white;
+  box-shadow: 0 12px 35px #1d392012;
+}
+
+.floating-card > span {
+  display: grid;
+  width: 35px;
+  height: 35px;
+  place-items: center;
+  border-radius: 50%;
+  background: #eaf3df;
+  color: #426e39;
+}
+
+.floating-card strong,
+.floating-card small {
+  display: block;
+}
+
+.floating-card strong {
+  font-size: 11px;
+}
+
+.floating-card small {
+  margin-top: 5px;
+  color: #819087;
+  font-size: 9px;
+}
+
+.home-about,
+.home-services {
+  padding: 75px 9%;
+  text-align: center;
+}
+
+.home-about h2,
+.home-services h2,
+.home-contact h2 {
+  margin: 14px 0;
+  color: #204532;
+  font-size: clamp(27px, 3vw, 38px);
+  letter-spacing: -1px;
+}
+
+.home-about > p {
+  max-width: 700px;
+  margin: 0 auto;
+  color: #748178;
+  font-size: 14px;
+  line-height: 1.9;
+}
+
+.home-services {
+  background: #f7f9f5;
+}
+
+.service-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 22px;
+  margin-top: 38px;
+  text-align: left;
+}
+
+.service-card {
+  padding: 27px;
+  border: 1px solid #e7ece4;
+  border-radius: 13px;
+  background: #fff;
+}
+
+.service-icon {
+  display: grid;
+  width: 45px;
+  height: 45px;
+  place-items: center;
+  border-radius: 11px;
+  background: #edf4e7;
+  color: #37633e;
+  font-size: 24px;
+}
+
+.service-card h3 {
+  margin: 22px 0 10px;
+  font-size: 16px;
+}
+
+.service-card p {
+  color: #77847a;
+  font-size: 13px;
+  line-height: 1.8;
+}
+
+.home-contact {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+  padding: 55px 9%;
+  background: #eaf2e4;
+}
+
+.home-contact h2 {
+  max-width: 600px;
+}
+
+.home-footer {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 15px;
+  padding: 25px 9%;
+  color: #77847a;
+  font-size: 11px;
+}
+
+.home-footer strong {
+  color: #24583e;
+  font-size: 17px;
+}
+
+@media (max-width: 850px) {
+  .home-navbar {
+    padding: 18px 5%;
+  }
+
+  .home-nav-links {
+    gap: 14px;
+  }
+
+  .home-nav-links > a {
+    font-size: 11px;
+  }
+
+  .home-hero {
+    padding: 55px 6%;
+    gap: 20px;
+  }
+
+  .floating-card {
+    right: 0;
+  }
+}
+
+@media (max-width: 620px) {
+  .home-navbar {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .home-nav-links {
+    width: 100%;
+    flex-wrap: wrap;
+  }
+
+  .home-hero {
+    grid-template-columns: 1fr;
+    padding: 45px 7%;
+  }
+
+  .hero-content h1 {
+    font-size: 46px;
+  }
+
+  .hero-visual {
+    min-height: 340px;
+  }
+
+  .service-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .home-about,
+  .home-services {
+    padding: 55px 7%;
+  }
+
+  .home-contact {
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 40px 7%;
+  }
+
+  .home-footer {
+    padding: 25px 7%;
+  }
+}
